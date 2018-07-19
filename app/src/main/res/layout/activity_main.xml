@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Fullname" />
+
+    <EditText
+        android:id="@+id/txtNamaLengkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:width="350dp"
+        android:hint="Masukan Nama Lengkap"
+        android:backgroundTint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/lblJnsKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Jenis Kelamin" />
+
+    <EditText
+        android:id="@+id/txtJnsKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:width="350dp"
+        android:hint="Masukan Jenis Kelamin"
+        android:backgroundTint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/lblTmpLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Tempat Lahir" />
+
+    <EditText
+        android:id="@+id/txtTmpLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:width="350dp"
+        android:hint="Masukan Tempat Lahir"
+        android:backgroundTint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/lblTglLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Tenggal Lahir" />
+
+    <EditText
+        android:id="@+id/txtTglLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="date"
+        android:width="350dp"
+        android:hint="Masukan Tanggal Lahir"
+        android:backgroundTint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/lblAlamatLeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Alamat Lengkap" />
+
+    <EditText
+        android:id="@+id/txtAlamatLeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:width="350dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="Masukan Alamat Anda"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Details Member"
+        android:textColor="@color/textColor"
+        android:onClick="DetailsMembers"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Save"
+        android:textColor="@color/textColor" />
+
+</LinearLayout>
